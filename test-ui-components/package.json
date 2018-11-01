@@ -9,7 +9,8 @@
     "esm"
   ],
   "scripts": {
-    "watch": "watch 'npm run build:esm && npm run build:commonjs' ./src",
+    "watch": "watch 'npm run' ./src",
+    "build": "npm run build:commonjs && npm run build:esm",
     "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir commonjs --ignore '**/test' --source-maps inline",
     "build:esm": "BABEL_ENV=esm babel src --out-dir esm --ignore '**/test' --source-maps inline"
   },
