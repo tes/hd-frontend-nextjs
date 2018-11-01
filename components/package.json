@@ -1,0 +1,42 @@
+{
+  "name": "my-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commonjs/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "commonjs",
+    "esm"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-commonjs": "BABEL_ENV=commonjs babel src --out-dir commonjs --ignore '**/stories','**/test' --source-maps inline",
+    "build-esm": "BABEL_ENV=esm babel src --out-dir esm --ignore '**/stories','**/test' --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-react-displayname": "^0.0.5"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
