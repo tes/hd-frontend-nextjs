@@ -7,7 +7,7 @@ class Layout extends React.Component {
   render () {
     const {children} = this.props
     return (
-    <div style={{ margin: 0, padding: 0, fontFamily: 'Helvetica' }}>
+    <div style={{ fontFamily: 'Helvetica', backgroundColor: '#bbdefb' }}>
         <Header Link={Link} />
         {children}
     </div>

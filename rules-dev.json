@@ -2,6 +2,6 @@
   "rules": [
     {"pathname": "/blog", "dest": "http://localhost:4000"},
     {"pathname": "/users", "dest": "http://localhost:5000"},
-    {"pathname": "/*", "dest": "http://localhost:6000"}
+    {"pathname": "/**", "dest": "http://localhost:6000"}
   ]
 }
