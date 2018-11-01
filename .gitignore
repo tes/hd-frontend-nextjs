@@ -12,10 +12,6 @@ test/node_modules
 *.log
 pids
 
-# coverage
-.nyc_output
-coverage
-
 # test output
 test/**/out
 .DS_Store

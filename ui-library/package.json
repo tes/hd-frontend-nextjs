@@ -1,5 +1,5 @@
 {
-  "name": "my-components",
+  "name": "ui-library",
   "version": "1.0.0",
   "description": "",
   "main": "commonjs/index.js",
@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-commonjs": "BABEL_ENV=commonjs babel src --out-dir commonjs --ignore '**/stories','**/test' --source-maps inline",
-    "build-esm": "BABEL_ENV=esm babel src --out-dir esm --ignore '**/stories','**/test' --source-maps inline"
+    "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir commonjs --ignore '**/test' --source-maps inline",
+    "build:esm": "BABEL_ENV=esm babel src --out-dir esm --ignore '**/test' --source-maps inline"
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +32,8 @@
     "@babel/register": "^7.0.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
-    "babel-plugin-add-react-displayname": "^0.0.5"
+    "babel-plugin-add-react-displayname": "^0.0.5",
+    "prettier": "^1.14.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
