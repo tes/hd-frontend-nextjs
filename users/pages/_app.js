@@ -9,7 +9,9 @@ class Layout extends React.Component {
     return (
     <div style={{ fontFamily: 'Helvetica', backgroundColor: '#bbdefb' }}>
         <Header Link={Link} />
-        {children}
+        <div style={{ padding: 20 }}>
+          {children}
+        </div>
     </div>
     )
   }

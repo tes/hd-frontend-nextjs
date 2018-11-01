@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { Button, Header } from 'test-ui-components';
+import { Button } from 'test-ui-components';
 
 export default () => (
-  <div style={{ margin: '0 auto', maxWidth: 900, padding: 20 }}>
+  <div style={{ margin: '0 auto', maxWidth: 900 }}>
     <h1>This is the blog</h1>
       <Button bgColor="green">
         <Link href="/blog/post1">
