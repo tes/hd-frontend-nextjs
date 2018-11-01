@@ -1,10 +1,12 @@
 import React from 'react';
-import { Button } from 'my-components';
+import Link from 'next/link';
+import { Button, Header } from 'test-ui-components';
 
 export default () => (
   <div>
+    <Header Link={Link} />
     <Button bgColor="green">
       Test
     </Button>
   </div>
-)
+);

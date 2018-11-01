@@ -1,6 +1,7 @@
 {
   "rules": [
-    {"pathname": "/app1", "method":["GET", "POST", "OPTIONS"], "dest": "https://with-zones-blog.now.sh"},
-    {"pathname": "/**", "dest": "https://with-zones-home.now.sh"}
+    {"pathname": "/app1", "dest": "http://localhost:5000"},
+    {"pathname": "/app2", "dest": "http://localhost:6000"},
+    {"pathname": "/**", "dest": "http://localhost:4000"}
   ]
 }

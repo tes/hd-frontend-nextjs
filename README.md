@@ -11,3 +11,7 @@ Inside either `app1` or `app2` you can install your modules with `npm i` and the
  - Run both apps with the proxy
  - Use the same components from a shared library
  - Export static css for the components library
+
+
+### Findings
+- If you are inside an app folder you need to use `/pages/${name_of_the_app}` and this is something probably the AppShell approach of Trulia is automatically doing for you

@@ -1,12 +1,12 @@
 {
-  "name": "app1",
+  "name": "app3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 6000",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 6000"
   },
   "author": "",
   "license": "ISC",
