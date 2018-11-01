@@ -1,2 +1,0 @@
-export { Button } from './Button';
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJCdXR0b24iXSwibWFwcGluZ3MiOiJBQUFBLFNBQVNBLE1BQVQsUUFBdUIsVUFBdkIiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBCdXR0b24gfSBmcm9tICcuL0J1dHRvbic7XG4iXX0=
